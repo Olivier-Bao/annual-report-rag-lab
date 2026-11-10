@@ -1,0 +1,21 @@
+{
+  "data_kind": "synthetic",
+  "index_embedding": "toy-embedding-v1",
+  "query_embedding": "toy-embedding-v1",
+  "retrieved_page_ids": [
+    "report-A:p3",
+    "report-A:p5"
+  ],
+  "context_pages": [
+    {
+      "id": "report-A:p3",
+      "text": "虚构公司 A 的演示数值为 42。"
+    }
+  ],
+  "answer": {
+    "text": "演示数值为 42。",
+    "citation_ids": [
+      "report-A:p3"
+    ]
+  }
+}
